@@ -1,0 +1,27 @@
+.logo {
+  @include font-face(700, 24px, 1.17, ("Raleway"), 0.03);
+  color: var(--accent-color);
+
+  @media screen and (min-width: 1200px) {
+    @include font-face(700, 26px, 1.17, ("Raleway"), 0.03);
+  }
+}
+
+.logo--indents {
+  padding: 16px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 26px 0;
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 25px;
+    padding-bottom: 24px;
+    margin-right: 93px;
+  }
+}
+
+.logo--color {
+  color: #000000;
+}

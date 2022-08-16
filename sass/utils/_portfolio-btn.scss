@@ -1,0 +1,8 @@
+.button-list {
+    display: flex;
+    justify-content: center;
+}
+
+.button-list li:not(:last-child) {
+    padding-right: 8px;
+}
