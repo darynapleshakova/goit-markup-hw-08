@@ -159,12 +159,12 @@ body {
 }
 
 .button__filter--indent {
-  display: block;
+
 }
 
 @media screen and (max-width: 767px) {
   .button__filter--indent {
-    margin-bottom: 15px;
+   
   }
 }
 
