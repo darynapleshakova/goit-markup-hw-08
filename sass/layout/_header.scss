@@ -5,7 +5,9 @@
 
 .header__list {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+ 
+ 
 }
 .contact-info {
   @media screen and (max-width: 767px) {

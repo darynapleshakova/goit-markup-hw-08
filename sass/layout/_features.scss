@@ -2,7 +2,8 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    margin-left: -30px;
+    margin-top: -30px;
   }
 }
 
@@ -10,8 +11,6 @@
   &::before {
     content: "";
     display: block;
-    margin-bottom: 30px;
-
     height: 120px;
 
     @include background-attributes($size: 70px);
@@ -25,12 +24,12 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: calc((100% - 4 * 15px) / 2);
-    margin: 15px;
+    width: calc(100% / 2 - 30px);
+   
   }
 
   @media screen and (min-width: 1200px) {
-    width: calc((100% - 8 * 15px) / 4);
+    width: calc(100% / 4 -30px);
   }
 }
 

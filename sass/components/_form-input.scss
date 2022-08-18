@@ -89,12 +89,10 @@
     margin-right: 8px;
     border: 2px solid var(--button-text-color);
     border-radius: 2px;
+    flex-shrink: 1;
   }
   @include flex-center();
   @include font-face($fs: 12px, $lh: 1.17);
-
-  text-align: center;
-
   color: var(--secondary-text-color);
 
   @media screen and (min-width: 1200px) {

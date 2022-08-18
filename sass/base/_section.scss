@@ -1,8 +1,8 @@
 .section {
   padding: 60px 0;
-  width: 100%;
+ 
 
-  @media screen and (min-width: $third-bp) {
+  @media screen and (min-width: 1200px) {
     padding: 94px 0;
   }
 }
@@ -15,7 +15,7 @@
 
   color: var(--section-title-text-color);
 
-  @media screen and (min-width: $third-bp) {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
 
     @include font-face($fw: 700, $fs: 36px);
